@@ -6,41 +6,42 @@ import Button from "./components/buttons";
 import Dropdowns from "./components/dropdowns";
 
 function App() {
+
   const [formData, setFormData] = useState({
-    title: "",
-    titleError: "",
-    workType: "",
-    workTypeError: "",
-    workTime: "",
-    workTimeError: "",
-    country: "",
-    countryError: "",
-    city: "",
-    cityError: "",
-    language: "",
-    languageError: "",
-    levelUp: "",
-    levelUpError: "",
-    field: "",
-    fieldError: "",
-    skills: "",
-    skillsError: "",
-    minSalary: "",
-    minSalaryError: "",
-    maxSalary: "",
-    maxSalaryError: "",
+    title: '',
+    titleError:'',
+    workType: '',
+    workTypeError:'',
+    workTime: '',
+    workTimeError:'',
+    country: '',
+    countryError:'',
+    city: '',
+    cityError:'',
+    language: '',
+    languageError:'',
+    levelUp: '',
+    levelUpError:'',
+    field: '',
+    fieldError:'',
+    skills: '',
+    skillsError:'',
+    minSalary: '',
+    minSalaryError:'',
+    maxSalary: '',
+    maxSalaryError:'',
     bargain: false,
-    salaryDeadline: "",
-    salaryDeadlineError: "",
-    currency: "",
-    currencyError: "",
-    eduLevel: "",
-    eduLevelError: "",
-    experience: "",
-    experienceError: "",
-    description: "",
-    descriptionError: "",
-  });
+    salaryDeadline: '',
+    salaryDeadlineError:'',
+    currency: '',
+    currencyError:'',
+    eduLevel: '',
+    eduLevelError:'',
+    experience: '',
+    experienceError:'',
+    description: '',
+    descriptionError:'',
+  })
 
   const [workType, setWorkType] = useState([
     {
@@ -360,8 +361,8 @@ function App() {
         />
 
         <div className="btn-group">
-          <Button classes="gray-button" title="Ortga" />
-          <Button classes="blue-button" title="Davom etish" />
+          <Button classes='gray-button' title="Ortga" />
+          <Button classes='blue-button' title="Davom etish" />
         </div>
       </div>
     </>

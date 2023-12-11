@@ -8,7 +8,7 @@ export default function Input(props) {
       <label className="input-label" htmlFor={id}>
         {title} &nbsp; {isRequired && <span>*</span>}
       </label>
-      <input onChange={handleChangeInput} id={id} name={name} placeholder={placeholder} className="text-input" type="text" />
+      <input  id={id} name={name} placeholder={placeholder} className="text-input" type="text" />
     </>
   );
 }
