@@ -1,13 +1,92 @@
-body{
-  background: #B3B3B3;
+body {
+  /* background: #B3B3B3; */
   font-family: sans-serif;
 }
 
-.form-wrapper{
+.form-wrapper {
   width: 778px;
   padding: 32px 38px;
   border-radius: 24px;
   background-color: #FFF;
   margin: 90px auto;
 
+}
+
+.form-title {
+  color: var(--Dark, #2A2941);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  margin-bottom: 16px;
+}
+
+.form-subtitle {
+  color: var(--30-black, #B3B3B3);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 130%;
+  margin-bottom: 32px;
+}
+
+.job-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.job-info .dropdown-wrapper {
+  width: 30%;
+}
+
+.region,
+.salary,
+.salary-deadline, .education-level {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.region .dropdown-wrapper,
+.salary .dropdown-wrapper,
+.salary-deadline .dropdown-wrapper, .education-level .dropdown-wrapper {
+  width: 50%;
+}
+
+.language-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.language-info .dropdown-wrapper {
+  width: 50%;
+}
+
+.field-info {
+  margin-top: 20px;
+}
+
+.skills {
+  margin-top: 20px;
+}
+
+.bargain {
+  margin-top: 20px;
+  display: flex;
+  gap: 8px;
+  color: var(--Dark, #2A2941);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+}
+
+.btn-group{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 42px;
 }
