@@ -1,0 +1,13 @@
+body{
+  background: #B3B3B3;
+  font-family: sans-serif;
+}
+
+.form-wrapper{
+  width: 778px;
+  padding: 32px 38px;
+  border-radius: 24px;
+  background-color: #FFF;
+  margin: 90px auto;
+
+}

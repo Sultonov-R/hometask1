@@ -1,0 +1,22 @@
+.button {
+    cursor: pointer;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 16px;
+    border: none;
+}
+
+.blue-button {
+    color: var(--White, #FFF);
+    background: var(--Mai, #5361E4);
+}
+
+.gray-button {
+    color: var(--Gray, #6E6D77);
+    background: #F8F8F8;
+}
